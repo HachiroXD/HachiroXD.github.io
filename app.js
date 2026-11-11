@@ -1,6 +1,76 @@
 const text={
-de:{skip:'Zum Inhalt',navigation:'Hauptnavigation',language:'Sprache',navHome:'Start',navProjects:'Projekte',navAbout:'Über mich',introLabel:'PROJEKTE, IDEEN & EIN BISSCHEN ICH',homeTitle:'Willkommen in meiner<br><span>Projektecke.</span>',intro:'Hey, ich bin Hachiro! Hier findest du die Projekte, an denen ich arbeite – und was mich gerade beschäftigt.',projectsTitle:'Meine Projekte<span>.</span>',projectsIntro:'Was mich beschäftigt, woran ich arbeite und was daraus entsteht. Hier findest du meine aktuellen Projekte.',projectsLabel:'MIT HERZBLUT DABEI',collectionTitle:'Meine Projekte',currentlyWorking:'Gerade in Arbeit',community:'Community-Projekt',inProgress:'In Arbeit',projectDescription:'Wib Wobs verbinden, Yo-kai sammeln und wieder zusammen spielen. Ein inoffizieller Fanserver von der Community für die Community.',projectWebsite:'Zur Projektwebsite',details:'Details',behindProjects:'HINTER DEN PROJEKTEN',profileTitle:'Hey, ich bin Hachiro<span>!</span>',profileText:'Das hier ist mein kleiner Platz im Internet. Aktuell arbeite ich als Owner an Wibble Wobble.',moreAbout:'Mehr über mich',aroundWeb:'Auch hier unterwegs',moreSoon:'Noch mehr Ideen im Kopf.<br>Weitere Projekte folgen mit der Zeit.',bottomNote:'Kleine Projekte. Große Begeisterung.',footerText:'Projekte & mehr',aboutEyebrow:'EIN BISSCHEN PERSÖNLICHER',aboutTitle:'Hi, ich bin <span>Hachiro.</span>',aboutIntro:'Die Person hinter dieser kleinen Projektecke.',aboutHeading:'Schön, dass du hier bist!',aboutBody:'Ich bin Hachiro und arbeite aktuell als Owner an Yo-kai Watch Wibble Wobble. Auf dieser Website sammle ich meine Projekte und gebe dir einen Einblick in das, woran ich gerade arbeite.',aboutSecond:'Den Anfang macht Wibble Wobble: ein inoffizieller Community-Fanserver, der das gemeinsame Spielen wieder möglich macht. Weitere Projekte bekommen hier mit der Zeit ihren eigenen Platz.',seeProjects:'Meine Projekte ansehen',myLinks:'Meine Links',currentProject:'Mein aktuelles Projekt',nameNote:'Hachiro im Web.<br>HachiroXD auf GitHub.',close:'Schließen',dialogLead:'Wieder gemeinsam Wib Wobs verbinden.',dialogBody:'Ein inoffizieller Community-Fanserver für Yo-kai Watch Wibble Wobble. Ich arbeite als Owner an dem Projekt. Auf der Projektwebsite findest du Informationen zum Spielen, die verfügbaren Downloads für Android und iOS und Hilfe für den Einstieg.',myRole:'Meine Rolle',status:'Status',disclaimer:'Inoffizielles, nicht kommerzielles Fanprojekt. Kein Angebot von LEVEL-5 Inc. oder NHN PlayArt Corp. Rechte an Spiel und Originalinhalten liegen bei den jeweiligen Rechteinhabern.',darkMode:'Dunklen Modus aktivieren',lightMode:'Hellen Modus aktivieren'},
-en:{skip:'Skip to content',navigation:'Main navigation',language:'Language',navHome:'Home',navProjects:'Projects',navAbout:'About me',introLabel:'PROJECTS, IDEAS & A LITTLE BIT OF ME',homeTitle:'Welcome to my little<br><span>project corner.</span>',intro:'Hey, I’m Hachiro! Here you’ll find the projects I’m working on — and what’s keeping me busy.',projectsTitle:'My projects<span>.</span>',projectsIntro:'What keeps me busy, what I’m working on, and where it all leads. Explore my current projects here.',projectsLabel:'MADE WITH ENTHUSIASM',collectionTitle:'My projects',currentlyWorking:'Currently in progress',community:'Community project',inProgress:'In progress',projectDescription:'Connect Wib Wobs, collect Yo-kai, and play together again. An unofficial fan server by the community, for the community.',projectWebsite:'Visit project website',details:'Details',behindProjects:'BEHIND THE PROJECTS',profileTitle:'Hey, I’m Hachiro<span>!</span>',profileText:'This is my little corner of the internet. I’m currently working on Wibble Wobble as its owner.',moreAbout:'More about me',aroundWeb:'Around the web',moreSoon:'More ideas in the making.<br>More projects will follow in time.',bottomNote:'Small projects. Big enthusiasm.',footerText:'Projects & more',aboutEyebrow:'A LITTLE MORE PERSONAL',aboutTitle:'Hi, I’m <span>Hachiro.</span>',aboutIntro:'The person behind this little project corner.',aboutHeading:'Glad you’re here!',aboutBody:'I’m Hachiro, currently working on Yo-kai Watch Wibble Wobble as its owner. This website brings my projects together and gives you a glimpse of what I’m working on.',aboutSecond:'First up is Wibble Wobble: an unofficial community fan server that makes playing together possible again. More projects will find their own place here in time.',seeProjects:'Explore my projects',myLinks:'My links',currentProject:'My current project',nameNote:'Hachiro on the web.<br>HachiroXD on GitHub.',close:'Close',dialogLead:'Connecting Wib Wobs together again.',dialogBody:'An unofficial community fan server for Yo-kai Watch Wibble Wobble. I’m working on the project as its owner. The project website has information on playing, currently available downloads for Android and iOS, and help getting started.',myRole:'My role',status:'Status',disclaimer:'Unofficial, non-commercial fan project. Not affiliated with LEVEL-5 Inc. or NHN PlayArt Corp. Rights to the game and original content belong to their respective owners.',darkMode:'Enable dark mode',lightMode:'Enable light mode'}
+  "de": {
+    "skip": "Zum Inhalt",
+    "navigation": "Hauptnavigation",
+    "language": "Sprache",
+    "navHome": "Start",
+    "navProjects": "Projekte",
+    "navAbout": "Über mich",
+    "homeTitle": "Hachiro",
+    "intro": "Meine Projekte und Links.",
+    "projectsTitle": "Projekte",
+    "projectsIntro": "Aktuell: Yo-kai Watch Wibble Wobble.",
+    "collectionTitle": "Meine Projekte",
+    "currentlyWorking": "Gerade in Arbeit",
+    "community": "Community-Projekt",
+    "inProgress": "In Arbeit",
+    "projectDescription": "Inoffizieller Community-Fanserver für Yo-kai Watch Wibble Wobble.",
+    "projectWebsite": "Zur Projektwebsite",
+    "details": "Details",
+    "profileTitle": "Hachiro",
+    "profileText": "Owner von Yo-kai Watch Wibble Wobble.",
+    "moreAbout": "Mehr über mich",
+    "aroundWeb": "Links",
+    "footerText": "Projekte",
+    "aboutTitle": "Über mich",
+    "aboutBody": "Ich bin Hachiro und Owner von Yo-kai Watch Wibble Wobble.",
+    "seeProjects": "Meine Projekte ansehen",
+    "myLinks": "Meine Links",
+    "currentProject": "Mein aktuelles Projekt",
+    "close": "Schließen",
+    "dialogBody": "Ich bin Owner des inoffiziellen Community-Fanservers für Yo-kai Watch Wibble Wobble. Downloads für Android und iOS sowie Hilfe zum Spielen gibt es auf der Projektwebsite.",
+    "myRole": "Meine Rolle",
+    "status": "Status",
+    "disclaimer": "Inoffizielles, nicht kommerzielles Fanprojekt. Kein Angebot von LEVEL-5 Inc. oder NHN PlayArt Corp. Rechte an Spiel und Originalinhalten liegen bei den jeweiligen Rechteinhabern.",
+    "darkMode": "Dunklen Modus aktivieren",
+    "lightMode": "Hellen Modus aktivieren"
+  },
+  "en": {
+    "skip": "Skip to content",
+    "navigation": "Main navigation",
+    "language": "Language",
+    "navHome": "Home",
+    "navProjects": "Projects",
+    "navAbout": "About me",
+    "homeTitle": "Hachiro",
+    "intro": "My projects and links.",
+    "projectsTitle": "Projects",
+    "projectsIntro": "Currently: Yo-kai Watch Wibble Wobble.",
+    "collectionTitle": "My projects",
+    "currentlyWorking": "Currently in progress",
+    "community": "Community project",
+    "inProgress": "In progress",
+    "projectDescription": "Unofficial community fan server for Yo-kai Watch Wibble Wobble.",
+    "projectWebsite": "Visit project website",
+    "details": "Details",
+    "profileTitle": "Hachiro",
+    "profileText": "Owner of Yo-kai Watch Wibble Wobble.",
+    "moreAbout": "More about me",
+    "aroundWeb": "Links",
+    "footerText": "Projects",
+    "aboutTitle": "About me",
+    "aboutBody": "I’m Hachiro, owner of Yo-kai Watch Wibble Wobble.",
+    "seeProjects": "Explore my projects",
+    "myLinks": "My links",
+    "currentProject": "My current project",
+    "close": "Close",
+    "dialogBody": "I’m the owner of the unofficial community fan server for Yo-kai Watch Wibble Wobble. Visit the project website for Android and iOS downloads and help with playing.",
+    "myRole": "My role",
+    "status": "Status",
+    "disclaimer": "Unofficial, non-commercial fan project. Not affiliated with LEVEL-5 Inc. or NHN PlayArt Corp. Rights to the game and original content belong to their respective owners.",
+    "darkMode": "Enable dark mode",
+    "lightMode": "Enable light mode"
+  }
 };
 const page=document.body.dataset.page;
 let currentLanguage='de';
@@ -10,11 +80,11 @@ function setLanguage(value,updateUrl=true){
  document.documentElement.lang=currentLanguage;
  document.querySelectorAll('[data-t]').forEach(element=>{element.innerHTML=strings[element.dataset.t]});
  document.querySelectorAll('[data-a]').forEach(element=>{element.setAttribute('aria-label',strings[element.dataset.a])});
- if(page==='projects'){document.querySelector('.intro h1').innerHTML=strings.projectsTitle;document.querySelector('.intro-text').textContent=strings.projectsIntro;document.querySelector('.intro .eyebrow span:last-child').textContent=strings.projectsLabel;}
+ if(page==='projects'){document.querySelector('.intro h1').innerHTML=strings.projectsTitle;document.querySelector('.intro-text').textContent=strings.projectsIntro;}
  document.querySelectorAll('[data-lang]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.lang===currentLanguage)));
  document.querySelectorAll('[data-internal]').forEach(link=>{const target=new URL(link.getAttribute('href'),location.href);target.searchParams.set('lang',currentLanguage);link.setAttribute('href',target.pathname.split('/').pop()+target.search);});
  const logo=currentLanguage==='en'?'./assets/wibble-wobble.png':'./assets/wibble-wobble-de.png';document.getElementById('project-logo').src=logo;document.getElementById('dialog-logo').src=logo;
- const titles=currentLanguage==='en'?{home:'Projects & more',projects:'Projects',about:'About me'}:{home:'Projekte & mehr',projects:'Projekte',about:'Über mich'};document.title='Hachiro — '+titles[page];
+ const titles=currentLanguage==='en'?{home:'Projects',projects:'Projects',about:'About me'}:{home:'Projekte',projects:'Projekte',about:'Über mich'};document.title='Hachiro — '+titles[page];
  document.querySelector('meta[name="description"]').content=currentLanguage==='en'?'Hachiro’s projects and ideas. Currently working on Yo-kai Watch Wibble Wobble. In German and English.':'Hachiros Projekte und Ideen. Aktuell: Yo-kai Watch Wibble Wobble. Auf Deutsch und Englisch.';
  document.querySelector('.brand').setAttribute('aria-label','Hachiro – '+strings.navHome);updateThemeLabel();
  try{localStorage.setItem('hachiro-language',currentLanguage)}catch{}
